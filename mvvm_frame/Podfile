@@ -1,4 +1,5 @@
-platform :ios, '7.0'
-  target ‘mvvm——frame’ do
-pod 'AFNetworking'
+platform :ios, '8.0'
 
+target ‘mvvm_frame’ do
+pod 'AFNetworking', '~> 3.0'
+end
