@@ -1,6 +1,6 @@
 //
-//  mvvm__frameUITests.m
-//  mvvm——frameUITests
+//  mvvm_frameUITests.m
+//  mvvm_frameUITests
 //
 //  Created by 和马乐 on 17/2/15.
 //  Copyright © 2017年 mvvm. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface mvvm__frameUITests : XCTestCase
+@interface mvvm_frameUITests : XCTestCase
 
 @end
 
-@implementation mvvm__frameUITests
+@implementation mvvm_frameUITests
 
 - (void)setUp {
     [super setUp];
