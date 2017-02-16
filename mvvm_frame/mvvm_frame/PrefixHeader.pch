@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  
+//
+
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#import "Config.h"
+
+
+// 屏幕宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define RGBYanSe(RGBValue) [UIColor \
+colorWithRed:((float)((RGBValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((RGBValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(RGBValue & 0xFF))/255.0 alpha:1.0]/**< RGB颜色的方法*/
+#define RGB(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+
+#import "ViewModelClass.h"
+
+#import "AFNetworking.h"
+#import "HttpManager.h"
+
+

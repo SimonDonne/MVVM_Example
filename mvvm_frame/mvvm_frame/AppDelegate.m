@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[HttpManager shareInstance]netWorkReachabilityWithURLString:@"www.baidu.com"];
+    
     return YES;
 }
 

@@ -15,6 +15,11 @@
 		0F45D9CE1E5450890081278D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F45D9CC1E5450890081278D /* LaunchScreen.storyboard */; };
 		0F45D9D91E54508A0081278D /* mvvm_frameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F45D9D81E54508A0081278D /* mvvm_frameTests.m */; };
 		0F45D9E41E54508A0081278D /* mvvm_frameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F45D9E31E54508A0081278D /* mvvm_frameUITests.m */; };
+		0FDC415B1E554DAB00876F99 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC415A1E554DAB00876F99 /* HttpManager.m */; };
+		0FDC41601E55504300876F99 /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC415F1E55504300876F99 /* ViewModelClass.m */; };
+		0FDC41641E55514900876F99 /* AdvertisingColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC41631E55514900876F99 /* AdvertisingColumn.m */; };
+		0FDC416B1E5551CC00876F99 /* SDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC416A1E5551CC00876F99 /* SDTabBarController.m */; };
+		0FDC416F1E55525B00876F99 /* ImageFromWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC416E1E55525B00876F99 /* ImageFromWeb.m */; };
 		7C41D5227594CB8D96801A15 /* libPods-mvvm_frame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2518F442E3BC846675D7EA /* libPods-mvvm_frame.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,18 @@
 		0F45D9DF1E54508A0081278D /* mvvm_frameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvvm_frameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F45D9E31E54508A0081278D /* mvvm_frameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mvvm_frameUITests.m; sourceTree = "<group>"; };
 		0F45D9E51E54508A0081278D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDC41581E554D9200876F99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0FDC41591E554DAB00876F99 /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		0FDC415A1E554DAB00876F99 /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		0FDC415C1E554E6A00876F99 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0FDC415E1E55504300876F99 /* ViewModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelClass.h; sourceTree = "<group>"; };
+		0FDC415F1E55504300876F99 /* ViewModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelClass.m; sourceTree = "<group>"; };
+		0FDC41621E55514900876F99 /* AdvertisingColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisingColumn.h; sourceTree = "<group>"; };
+		0FDC41631E55514900876F99 /* AdvertisingColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisingColumn.m; sourceTree = "<group>"; };
+		0FDC41691E5551CC00876F99 /* SDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTabBarController.h; sourceTree = "<group>"; };
+		0FDC416A1E5551CC00876F99 /* SDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTabBarController.m; sourceTree = "<group>"; };
+		0FDC416D1E55525B00876F99 /* ImageFromWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFromWeb.h; sourceTree = "<group>"; };
+		0FDC416E1E55525B00876F99 /* ImageFromWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFromWeb.m; sourceTree = "<group>"; };
 		20A63DFF1658082549D1A256 /* Pods-mvvm_frame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm_frame.release.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm_frame/Pods-mvvm_frame.release.xcconfig"; sourceTree = "<group>"; };
 		5D378B07746C00E55329E471 /* Pods-mvvm_frame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm_frame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm_frame/Pods-mvvm_frame.debug.xcconfig"; sourceTree = "<group>"; };
 		8E2518F442E3BC846675D7EA /* libPods-mvvm_frame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mvvm_frame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +125,12 @@
 		0F45D9BD1E5450890081278D /* mvvm_frame */ = {
 			isa = PBXGroup;
 			children = (
+				0FDC41551E554D4A00876F99 /* Class */,
+				0FDC41561E554D5000876F99 /* Tools */,
+				0FDC41541E554D4100876F99 /* Request */,
+				0FDC41531E554D3700876F99 /* Config */,
+				0FDC41521E554D1D00876F99 /* Vender */,
+				0FDC41571E554D6900876F99 /* Resourse */,
 				0F45D9C11E5450890081278D /* AppDelegate.h */,
 				0F45D9C21E5450890081278D /* AppDelegate.m */,
 				0F45D9C41E5450890081278D /* ViewController.h */,
@@ -145,6 +168,92 @@
 				0F45D9E51E54508A0081278D /* Info.plist */,
 			);
 			path = mvvm_frameUITests;
+			sourceTree = "<group>";
+		};
+		0FDC41521E554D1D00876F99 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		0FDC41531E554D3700876F99 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC41581E554D9200876F99 /* PrefixHeader.pch */,
+				0FDC415C1E554E6A00876F99 /* Config.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		0FDC41541E554D4100876F99 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC41591E554DAB00876F99 /* HttpManager.h */,
+				0FDC415A1E554DAB00876F99 /* HttpManager.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		0FDC41551E554D4A00876F99 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		0FDC41561E554D5000876F99 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC416C1E55524300876F99 /* 网页提取图片 */,
+				0FDC41651E55515200876F99 /* 自定义滑动tabbar */,
+				0FDC41611E55512A00876F99 /* 广告滑动页面 */,
+				0FDC415D1E55501D00876F99 /* ViewModelClass */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		0FDC41571E554D6900876F99 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resourse;
+			sourceTree = "<group>";
+		};
+		0FDC415D1E55501D00876F99 /* ViewModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC415E1E55504300876F99 /* ViewModelClass.h */,
+				0FDC415F1E55504300876F99 /* ViewModelClass.m */,
+			);
+			name = ViewModelClass;
+			sourceTree = "<group>";
+		};
+		0FDC41611E55512A00876F99 /* 广告滑动页面 */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC41621E55514900876F99 /* AdvertisingColumn.h */,
+				0FDC41631E55514900876F99 /* AdvertisingColumn.m */,
+			);
+			name = "广告滑动页面";
+			sourceTree = "<group>";
+		};
+		0FDC41651E55515200876F99 /* 自定义滑动tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC41691E5551CC00876F99 /* SDTabBarController.h */,
+				0FDC416A1E5551CC00876F99 /* SDTabBarController.m */,
+			);
+			name = "自定义滑动tabbar";
+			sourceTree = "<group>";
+		};
+		0FDC416C1E55524300876F99 /* 网页提取图片 */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC416D1E55525B00876F99 /* ImageFromWeb.h */,
+				0FDC416E1E55525B00876F99 /* ImageFromWeb.m */,
+			);
+			name = "网页提取图片";
 			sourceTree = "<group>";
 		};
 		4F8A8C5A7460BA70B94358CF /* Frameworks */ = {
@@ -234,6 +343,7 @@
 				TargetAttributes = {
 					0F45D9BA1E5450890081278D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LX8753W3RT;
 						ProvisioningStyle = Automatic;
 					};
 					0F45D9D31E5450890081278D = {
@@ -349,8 +459,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F45D9C61E5450890081278D /* ViewController.m in Sources */,
+				0FDC41601E55504300876F99 /* ViewModelClass.m in Sources */,
 				0F45D9C31E5450890081278D /* AppDelegate.m in Sources */,
 				0F45D9C01E5450890081278D /* main.m in Sources */,
+				0FDC41641E55514900876F99 /* AdvertisingColumn.m in Sources */,
+				0FDC415B1E554DAB00876F99 /* HttpManager.m in Sources */,
+				0FDC416F1E55525B00876F99 /* ImageFromWeb.m in Sources */,
+				0FDC416B1E5551CC00876F99 /* SDTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +550,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/hemale/Desktop/MVVM_Example/mvvm_frame/mvvm_frame/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -481,6 +597,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/hemale/Desktop/MVVM_Example/mvvm_frame/mvvm_frame/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -500,6 +617,7 @@
 			baseConfigurationReference = 5D378B07746C00E55329E471 /* Pods-mvvm_frame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LX8753W3RT;
 				INFOPLIST_FILE = mvvm_frame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mvvm-frame";
@@ -512,6 +630,7 @@
 			baseConfigurationReference = 20A63DFF1658082549D1A256 /* Pods-mvvm_frame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LX8753W3RT;
 				INFOPLIST_FILE = mvvm_frame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mvvm-frame";
@@ -584,6 +703,7 @@
 				0F45D9EA1E54508A0081278D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F45D9EB1E54508A0081278D /* Build configuration list for PBXNativeTarget "mvvm_frameTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +712,7 @@
 				0F45D9ED1E54508A0081278D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F45D9EE1E54508A0081278D /* Build configuration list for PBXNativeTarget "mvvm_frameUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +721,7 @@
 				0F45D9F01E54508A0081278D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
